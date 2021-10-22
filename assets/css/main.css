@@ -1,5 +1,5 @@
 body{
-    background-color: lavender!important;
+    background-color: white!important;
 }
 
 .header{
@@ -62,11 +62,11 @@ body{
     overflow:hidden ;
     display: block;
     background-image: url("https://bootstrapmade.com/demo/templates/BizLand/assets/img/hero-bg.jpg");
-    border-bottom-right-radius: 400px;
+    
 }
 .banner-content{
   width: 100%;
-  color:white;
+  color:black;
   height: 500px;
 }
 .banner-header{
@@ -80,6 +80,7 @@ body{
     display: table-cell;
     vertical-align: middle;
   height: 500px;
+  font-weight: bold;
 }
 .banner-headerinner h1 span{
     color: #106eea ;
@@ -98,3 +99,24 @@ body{
 .banner-image img{
     
 }
+
+/* featured-services*/
+.featured-services{
+    padding: 20px;
+}
+.featured-services .service-item {
+    padding: 10px;
+    
+}
+.featured-services .service-item .servicebox{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 20px lavender;
+}
+.icon{
+    color:#106eea;
+    text-align: center;
+    padding: 20px;
+}
+
