@@ -61,7 +61,7 @@ body{
     vertical-align: middle;
     overflow:hidden ;
     display: block;
-    background-color: black;
+    background-image: url("https://bootstrapmade.com/demo/templates/BizLand/assets/img/hero-bg.jpg");
     border-bottom-right-radius: 400px;
 }
 .banner-content{
@@ -72,16 +72,20 @@ body{
 .banner-header{
     display: table-cell;
 
-  height: 700px;
+  height: 500px;
   vertical-align: middle;
   text-align: center;
 }
 .banner-headerinner{
-    display: inline-block;
-    
+    display: table-cell;
+    vertical-align: middle;
+  height: 500px;
+}
+.banner-headerinner h1 span{
+    color: #106eea ;
 }
 .imagecol{
-    height:700px;
+    height:500px;
 }
 .banner-image{
     position: relative;    
