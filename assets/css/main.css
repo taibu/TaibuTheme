@@ -3,7 +3,7 @@ body{
 }
 
 .header{
-    display: flexbox;
+    display:block;
 }
 .top-header{
     background-color:#106eea;
@@ -24,7 +24,9 @@ body{
     list-style-type:none ;
     float: right;
 }
-
+.top-header ul li a{
+    color: white;
+}
 .top-header ul li, .main-header ul li{
     padding: 10px;
     display:inline;
@@ -61,6 +63,7 @@ body{
     vertical-align: middle;
     overflow:hidden ;
     display: block;
+    background-attachment: fixed;
     background-image: url("https://bootstrapmade.com/demo/templates/BizLand/assets/img/hero-bg.jpg");
     
 }
@@ -119,4 +122,77 @@ body{
     text-align: center;
     padding: 20px;
 }
+.about-section{
+    background-color: whitesmoke;
+    padding: 30px;;
+}
 
+.about-section .section-title{
+    text-align: center;
+}
+
+.about-section .section-title h3 span{
+    color:#106eea ;
+}
+
+.services-skew {
+   
+     
+      display: block;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      background: black;
+      color: white;
+      transform-origin: top;
+      padding:100px;
+      -ms-transform: skew(0deg, -5deg);
+      -webkit-transform: skew(0deg, -5deg);
+      transform: skew(0deg, -5deg);
+  }
+  .section-title{
+      text-align: center;
+      font-weight: bold;
+      margin: 20px;
+  }
+  .services-skew .teammember{
+     padding: 20px;; 
+  }
+  .services-skew .teammember .member{
+    background-color: whitesmoke;
+    border-radius: 0px;  
+}
+.services-skew .teammember .member .member-info{
+    padding: 20px; 
+    color: black;
+}
+  .skew-content{
+     transform-origin: top;
+      -ms-transform: skew(0deg, 5deg);
+      -webkit-transform: skew(0deg, 5deg);
+      transform: skew(0deg, 5deg);
+  }
+
+.contact-section{
+    padding: 100px;
+}
+
+
+  .footer{
+      background-color:#106eea;
+      padding-top: 50px;
+  }
+  .footer ul{
+      list-style-type: none;
+  }
+  .footer ul li a{
+      color: black;
+  }
+  .copyright{
+      background-color: black;
+      text-align: center;
+      padding: 10px;
+      color: whitesmoke;
+  }
